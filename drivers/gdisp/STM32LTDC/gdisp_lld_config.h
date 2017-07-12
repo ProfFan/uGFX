@@ -21,8 +21,8 @@
 
 // Both these pixel formats are supported - pick one.
 // RGB565 obviously is faster and uses less RAM but with lower color resolution than RGB888
-#define GDISP_LLD_PIXELFORMAT				GDISP_PIXELFORMAT_RGB565
-//#define GDISP_LLD_PIXELFORMAT				GDISP_PIXELFORMAT_RGB888
+//#define GDISP_LLD_PIXELFORMAT				GDISP_PIXELFORMAT_RGB565
+#define GDISP_LLD_PIXELFORMAT				GDISP_PIXELFORMAT_RGB888
 
 
 /*===========================================================================*/
